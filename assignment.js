@@ -33,7 +33,7 @@ function modifyString(s){
                 flag[i+1]=true
             }
         }
-        else if(arr[i]%2==1 && i>1){
+        else if(arr[i]%2==1 && i>0){
             if(!flag[i-1]){
                 arr[i-1]-=arr[i]%5
                 if(arr[i-1]<0 | arr[i-1]>127)
